@@ -6,19 +6,14 @@
     <meta name="description" content="Portfolio of Joyanto Debnath - Full-Stack Developer & Data Science / ML Enthusiast">
     <title>Joyanto Debnath | Aspiring Full-Stack Developer</title>
     
-    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
-    
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header / Navigation Bar -->
     <header class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#hero" class="logo">
@@ -42,7 +37,6 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="hero" class="hero-section">
             <div class="container hero-container">
                 <div class="hero-text-content">
@@ -50,7 +44,7 @@
                     <h1 class="hero-title">Joyanto Debnath.</h1>
                     <h2 class="hero-headline">Crafting web apps, real-time systems, and creative designs.</h2>
                     <p class="hero-bio">
-                        Computer Science & Engineering student specializing in full-stack web development (MERN Stack, WebSockets), Graphic Desiging. Currently interning as a Graphic Designer at <strong>Requin BD</strong>.
+                        Computer Science & Engineering student specializing in full-stack web development (MERN Stack, WebSockets) and Graphic Designing. Currently interning as a Graphic Designer at <strong>Requin BD</strong>.
                     </p>
                     <div class="hero-cta-group">
                         <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
@@ -64,16 +58,15 @@
                     </div>
                 </div>
 
-                <!-- Hero Image Area -->
                 <div class="hero-image-wrapper">
                     <div class="image-frame">
                         <img src="joy.jpg" alt="Joyanto Debnath - Professional Photo" class="hero-img">
-                        <!-- <div class="image-backdrop"></div> -->
+                        <div class="image-backdrop"></div>
                     </div>
                 </div>
             </div>
         </section>
-<!-- About Section -->
+
         <section id="about" class="section">
             <div class="container">
                 <h2 class="section-heading"><span class="heading-num">01.</span> About Me</h2>
@@ -103,7 +96,6 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="section bg-alt">
             <div class="container">
                 <h2 class="section-heading"><span class="heading-num">02.</span> Technical Skills</h2>
@@ -115,12 +107,12 @@
                             <h3>Programming Languages</h3>
                         </div>
                         <ul class="skill-tags">
-                            <li><i class="fab fa-js"></i> JavaScript</li>
-                            <li><i class="fab fa-python"></i> Python</li>
                             <li><i class="fas fa-terminal"></i> C</li>
                             <li><i class="fas fa-terminal"></i> C++</li>
                             <li><i class="fab fa-html5"></i> HTML5</li>
                             <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                            <li><i class="fab fa-python"></i> Python</li>
                         </ul>
                     </div>
 
@@ -133,23 +125,20 @@
                             <li><i class="fab fa-react"></i> React.js</li>
                             <li><i class="fab fa-node-js"></i> Node.js</li>
                             <li><i class="fas fa-server"></i> Express.js</li>
-                            <li><i class="fas fa-plug"></i> WebSockets / Socket.io</li>
                             <li><i class="fas fa-network-wired"></i> RESTful APIs</li>
-                            <li><i class="fas fa-server"></i> Flask</li>
                         </ul>
                     </div>
 
                     <div class="skill-category">
                         <div class="category-header">
                             <i class="fas fa-database category-icon"></i>
-                            <h3>Databases, ML & Tools</h3>
+                            <h3>Databases & Tools</h3>
                         </div>
                         <ul class="skill-tags">
                             <li><i class="fas fa-leaf"></i> MongoDB</li>
                             <li><i class="fas fa-database"></i> MySQL</li>
-                            <li><i class="fas fa-brain"></i> Scikit-Learn</li>
                             <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
-                            <li><i class="fab fa-ubuntu"></i> Linux / Ubuntu Terminal</li>
+                            <li><i class="fab fa-linux"></i> Linux / Ubuntu Terminal</li>
                         </ul>
                     </div>
 
@@ -157,34 +146,31 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="section">
             <div class="container">
                 <h2 class="section-heading"><span class="heading-num">03.</span> Featured Projects</h2>
                 <div class="projects-cards-grid">
-
-                    <!-- Project 1: MERN Real-Time Chat App -->
-                    <article class="project-card featured">
+                    
+                    <article class="project-card">
                         <div class="project-header">
-                            <div class="project-type"><i class="fas fa-comments"></i> Real-Time Communication (MERN Stack)</div>
+                            <div class="project-type"><i class="fas fa-spinner fa-spin"></i> Real-Time Web App (WIP)</div>
                             <div class="project-actions">
                                 <a href="https://github.com/Joyanto2039" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <h3 class="project-title">Real-Time Messaging Application</h3>
+                        <h3 class="project-title">Real-Time Chat Application <span class="text-accent" style="font-size: 0.8rem; vertical-align: middle;">[In Progress]</span></h3>
                         <p class="project-description">
-                            A low-latency, full-stack real-time chat application engineered with React, Node.js, Express, and MongoDB. Utilizes WebSockets for bi-directional event-driven messaging, user session management, persistent conversation history, and dynamic state synchronization across clients.
+                            Currently building a full-stack real-time communication platform engineered for active socket rooms, instant message broadcasting, and user authentication using WebSockets.
                         </p>
                         <ul class="project-tech-stack">
                             <li>React.js</li>
                             <li>Node.js</li>
                             <li>Express.js</li>
+                            <li>Socket.io</li>
                             <li>MongoDB</li>
-                            <li>WebSockets</li>
                         </ul>
                     </article>
 
-                    <!-- Project 2: Employee Attrition Predictor -->
                     <article class="project-card">
                         <div class="project-header">
                             <div class="project-type"><i class="fas fa-brain"></i> Machine Learning Web App</div>
@@ -194,7 +180,7 @@
                         </div>
                         <h3 class="project-title">Employee Attrition Prediction System</h3>
                         <p class="project-description">
-                            An end-to-end machine learning web application engineered to predict workplace turnover risks. Implements K-Means clustering and Decision Tree classification algorithms on dataset pipelines to provide analytical insights through a clear user portal.
+                            An end-to-end machine learning web application engineered to predict workplace turnover risks. Implements K-Means clustering and Decision Tree classification algorithms on dataset pipelines.
                         </p>
                         <ul class="project-tech-stack">
                             <li>Python</li>
@@ -205,7 +191,6 @@
                         </ul>
                     </article>
 
-                    <!-- Project 3: Web Based Employee Management System -->
                     <article class="project-card">
                         <div class="project-header">
                             <div class="project-type"><i class="fas fa-users-cog"></i> Web Platform</div>
@@ -219,7 +204,8 @@
                         </p>
                         <ul class="project-tech-stack">
                             <li>React.js</li>
-                            <li>Node.js , Express.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
                             <li>MySQL</li>
                         </ul>
                     </article>
@@ -228,7 +214,6 @@
             </div>
         </section>
 
-        <!-- Experience Section -->
         <section id="experience" class="section bg-alt">
             <div class="container">
                 <h2 class="section-heading"><span class="heading-num">04.</span> Professional Experience</h2>
@@ -247,7 +232,6 @@
                             <ul class="timeline-bullets">
                                 <li>Design client visual branding assets, corporate collateral, and social media campaign graphics.</li>
                                 <li>Bridge creative design workflows with web development principles to build responsive user interface elements.</li>
-                                <!-- <li>Collaborate with cross-functional media and development teams under tight deadlines.</li> -->
                             </ul>
                         </div>
                     </div>
@@ -273,7 +257,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="section">
             <div class="container text-center">
                 <h2 class="section-heading center"><span class="heading-num">05.</span> Get In Touch</h2>
@@ -301,7 +284,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
             <p>Designed & Built by <strong>Joyanto Debnath</strong></p>
@@ -309,7 +291,6 @@
         </div>
     </footer>
 
-    <!-- JavaScript File -->
     <script src="script.js"></script>
 </body>
 </html>
